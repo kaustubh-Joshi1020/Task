@@ -28,7 +28,7 @@
   
   .categories span:not(:last-child)::after {
     content: "|";
-    margin-left: 10px; /* Margin between text and separator */
+    margin-left: 10px; 
     color: red;    
   }
   
@@ -94,6 +94,7 @@
   font-weight: 800;
   margin-bottom: 10px;
 }
+
 
 .foot a {
   font-family: 'Times New Roman', Times, serif;

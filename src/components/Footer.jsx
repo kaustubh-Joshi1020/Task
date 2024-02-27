@@ -15,6 +15,8 @@ export default function Footer() {
         "Sugars & Distilleries",
         "Paper & Pulp",
         "Marine & Defence",
+    ];
+    const categories1 = [
         "Metal & Mining",
         "Food & Beverage",
         "Petrochemical & Refineries",
@@ -26,11 +28,16 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="heading">C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</div>
-            <br />
+
             <div className="categories">
                 {categories.map((category) => (
                     <span key={category}>{category.toUpperCase()}</span>
                 ))}
+                <div>
+                {categories1.map((category1) => (
+                    <span key={category1}>{category1.toUpperCase()}</span>
+                ))}
+                </div>
             </div>
 
             <div className="foot">
