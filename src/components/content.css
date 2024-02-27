@@ -1,0 +1,70 @@
+.content{
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.award {
+    width: auto; 
+    height: 700px; 
+    float: left; 
+  }
+  
+.info{
+  margin-left: 20px;
+}
+
+/* content.css */
+.awarded {
+
+  float: right ;
+  height: 50%;
+  width: 70%;
+}
+
+.awarded + p {
+  max-width: 70%;
+  float: right; /* Float the text to the right of the image */
+}
+
+.install{
+  margin-top: 20px;
+}
+
+
+.red{
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+}
+
+
+@media (max-width: 768px) {
+  .content {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  .award {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  .info {
+    margin-left: 0;
+  }
+
+  .awarded {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  .awarded + p {
+    max-width: 100%;
+    float: none;
+  }
+}
